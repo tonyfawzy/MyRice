@@ -7,8 +7,8 @@ super + {equal, minus, BackSpace}
 super + shift + f
 	$TERMINAL lf
 
-{Print, shift + Print} 
-	$HOME/script/screenshot.sh {nosxiv, sxiv}
+Print
+	$HOME/script/screenshot.sh
 
 Scroll_Lock
 	pkill -RTMIN+20 dwmblocks
