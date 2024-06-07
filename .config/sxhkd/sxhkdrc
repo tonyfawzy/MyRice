@@ -1,0 +1,14 @@
+super + Print
+	$HOME/script/screencast.sh
+
+super + {equal, minus, BackSpace}
+	$HOME/script/volume.sh {up, down, toggle}
+
+super + shift + f
+	$TERMINAL lf
+
+{Print, shift + Print} 
+	$HOME/script/screenshot.sh {nosxiv, sxiv}
+
+Scroll_Lock
+	pkill -RTMIN+20 dwmblocks
