@@ -7,3 +7,7 @@
 TERMINAL=st
 EDITOR=nvim
 VISUAL=nvim
+
+BROWSER=firefox
+
+GTK_THEME="Arc-Dark"
