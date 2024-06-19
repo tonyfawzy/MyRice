@@ -13,6 +13,6 @@ else
 
 	case "$action" in
 		"0")
-		 sxiv $file ;;
+		 nsxiv $file ;;
 	esac
 fi
